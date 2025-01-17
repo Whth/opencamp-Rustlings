@@ -14,6 +14,7 @@
 // No hints this time ;)
 
 
+
 // Put your function here!
 fn calculate_price_of_apples (count:i32)->i32{
     if count > 40 {
