@@ -13,11 +13,16 @@
 //
 // No hints this time ;)
 
-// I AM NOT DONE
 
 // Put your function here!
-// fn calculate_price_of_apples {
-
+fn calculate_price_of_apples (count:i32)->i32{
+    if count > 40 {
+        count
+    }
+    else {
+        count * 2
+    }
+}
 // Don't modify this function!
 #[test]
 fn verify_test() {
@@ -31,3 +36,4 @@ fn verify_test() {
     assert_eq!(41, price3);
     assert_eq!(65, price4);
 }
+
